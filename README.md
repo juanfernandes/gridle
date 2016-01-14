@@ -51,7 +51,7 @@ Generate all classes :
 @include gridle_generate_classes();
 ```
 
-Use your grid in hrml :
+Use your grid in html :
 
 ```markup
 <div class="row">
@@ -139,7 +139,7 @@ Gridle has support for element queries with an easy mixin as all the rest of the
 
 ## Flex as a choice
 
-Gridle allows you to choose between a standard grid generated with float, etc... and a flex one that use the flexbox model. All of this power with the same exact classes.
+Gridle allows you to choose between a standard grid generated with float, etc... and a flex one that uses the flexbox model. All of this power with the same exact classes.
 
 ## Generate custom classes
 
@@ -154,9 +154,9 @@ Gridle allows you to generate custom classes that will be available for each of 
 This will produce the classes : center, center-mobile, center-tablet and center-landscape automatically
 
 
-## Set multiple grid properties at one
+## Set multiple grid properties at once
 
-Gridle offer you multiple ways to set grid properties on your elements, the gridle_set and gridle universal mixin are some of these ways
+Gridle offers you multiple ways to set grid properties on your elements, the gridle_set and gridle universal mixin are some of these ways
 
 ```scss
 #sidebar {
@@ -181,7 +181,7 @@ Gridle offer you multiple ways to set grid properties on your elements, the grid
 
 ## More control with Gridle{.js}
 
-Gridle{.js} allows you to be notified when states changes. It find automatically your states registered in your sass. Simple but powerful
+Gridle{.js} allows you to be notified when a state changes. It automatically finds your states registered in your sass. Simple but powerful
 
 ```javascript
 Gridle.on('update', function(updatedStates, activeStates, unactiveStates) {
@@ -193,7 +193,7 @@ Gridle.on('update', function(updatedStates, activeStates, unactiveStates) {
 
 ## And more...
 
-That's not finished. Gridle offer you a lot of features and advanced settings that you can discover on the full website. When I say that Gridle is powerful and fully customizable, I really mean it!
+That's not finished. Gridle offers you a lot of features and advanced settings that you can discover on the full website. When I say that Gridle is powerful and fully customizable, I really mean it!
 
 ## [Visit Website](http://gridle.org/) for full documentation
 
